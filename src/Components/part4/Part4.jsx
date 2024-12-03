@@ -9,6 +9,12 @@ import { GiLinkedRings } from "react-icons/gi";
 
 
 const Part4 = () => {
+
+    const navigate = (link)=>{
+        window.open(link, '_blank');
+    }
+
+
     return (
         <div className={styles.contain}>
             <div className={styles.two_image}>
@@ -45,7 +51,9 @@ const Part4 = () => {
                     22 de Febrero 2025
                 </h3>
 
-                <button>
+                <button onClick={()=>{
+                    navigate("https://maps.app.goo.gl/ejPf6TqZg6xGYWkT6")
+                }}>
                     Ver ubicacion
                 </button>
                 <img src={part4} alt="flor" />
@@ -55,10 +63,14 @@ const Part4 = () => {
                     <br />
                     22 de Febrero 2025
                 </h3>
-                <button>
+                <button onClick={()=>{
+                    navigate("https://maps.app.goo.gl/ejPf6TqZg6xGYWkT6")
+                }}>
                     Ver  ubicacion
                 </button>
-                <button>
+                <button onClick={()=>{
+                    navigate("https://w.app/Xzgbn9")
+                }}>
                     Confirmar asistencia
                 </button>
             </div>

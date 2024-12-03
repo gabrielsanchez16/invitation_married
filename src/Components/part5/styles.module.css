@@ -15,7 +15,6 @@
 .two_image {
     display: flex;
     justify-content: end;
-    margin-bottom: 9rem;
     width: 100%;
 }
 

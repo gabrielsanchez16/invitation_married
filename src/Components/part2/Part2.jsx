@@ -18,20 +18,19 @@ const Part2 = () => {
             <div className={styles.subposition}>
                 <h3>NOSOTROS</h3>
                 <h2>Estefany & Brandon</h2>
-                <h4>CON LA BENDICIÓN DE DIOS Y NUESTROS PADRES</h4>
+                <h4>Con la bendicion de dios y nuestros padres.</h4>
                 <h3>
-                    ROSA ISELA ARROYO TERRAZAS
+                    Rosa Isela Arroyo Terrazas
                     <br />
-                    EDGAR JAIRO NAVARRETE TAVARES
+                    Edgar Jairo Navarrete Tavares
                     <br />
                     <br />
-                    HILDA MANUELA DELGADO ARELLANES
+                    Hilda Manuela Delgado Arellanes
                     <br />
-                    JOSÉ MIGUEL ALTAMIRANO PALACIOS
+                    Jose Miguel Altamirano Palacios
                 </h3>
                 <h4>
-                    TENEMOS EL HONOR DE INVITARTE A
-                    NUESTRA BODA
+                    Tenemos el honor de invitarte a nuestra boda
                 </h4>
                 <img src={part2} alt="fany&brandon" />
             </div>

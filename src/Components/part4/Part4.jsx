@@ -54,7 +54,7 @@ const Part4 = () => {
                 <button onClick={()=>{
                     navigate("https://maps.app.goo.gl/ejPf6TqZg6xGYWkT6")
                 }}>
-                    Ver ubicacion
+                    Ubicacion iglesia
                 </button>
                 <img src={part4} alt="flor" />
                 <h2>Recepcion</h2>
@@ -64,9 +64,9 @@ const Part4 = () => {
                     22 de Febrero 2025
                 </h3>
                 <button onClick={()=>{
-                    navigate("https://maps.app.goo.gl/ejPf6TqZg6xGYWkT6")
+                    navigate("https://maps.app.goo.gl/o8Fb3iDUhLpPV1EE6")
                 }}>
-                    Ver  ubicacion
+                   Ubicacion salon
                 </button>
                 <button onClick={()=>{
                     navigate("https://w.app/Xzgbn9")

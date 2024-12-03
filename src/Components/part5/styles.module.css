@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
+
+.contain {
+    width: 100%;
+    position: relative;
+    min-height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.two_image {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 9rem;
+    width: 100%;
+}
+
+.two_image img {
+    width: 140px;
+    height: 100px;
+    margin-right: -3rem;
+    transform: rotate(70deg);
+}
+
+
+.one_image {
+    display: flex;
+    justify-content: start;
+    margin-top: 12rem;
+}
+
+.one_image img {
+    width: 100px;
+    transform: rotate(-90deg);
+    margin-left: -18rem;
+    height: 200px;
+    width: 460px;
+}
+
+.subposition {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    top: 0;
+    flex-direction: column;
+    padding: 0 1rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.box {
+    width: 85%;
+    padding: 1rem;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: antiquewhite;
+    gap: .5rem;
+}
+
+.line {
+    width: 100%;
+    height: 2px;
+    background-color: rgb(170 96 0 / 12%);
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.letters {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.letters h4{
+    font-weight: 300;
+    font-size: 12px;
+    color: rgb(170 96 0 / 68%);
+    font-family: "Roboto Flex", sans-serif;
+    text-align: center;
+}
+
+.subposition h2{
+    font-family: "Great Vibes", cursive;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.subposition h3{
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-weight: 300;
+    font-size: 12px;
+    text-align: center;
+}
+
+.subposition button{
+    border-radius: 22px;
+    cursor: pointer;
+    border: none;
+    font-size: 18px;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    padding: .4rem .9rem;
+    background-color: rgb(160 183 160);
+    color: white;
+}
+
+.subposition img{
+    width: 200px;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}

@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
+.contain {
+    width: 100%;
+    position: relative;
+    min-height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.two_image {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.two_image img {
+    width: 80px;
+    height: 80px;
+}
+
+.two_image img:first-child {
+    transform: rotate(180deg);
+}
+
+.one_image img {
+    width: 100px;
+}
+
+.subposition {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    top: 0;
+    flex-direction: column;
+    padding: 0 1rem;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.subposition img {
+    width: 250px;
+    height: auto;
+    object-fit: cover;
+    border: 6px solid rgb(160 183 160);
+}
+
+.subposition h2{
+    font-family: "Great Vibes", cursive;
+    font-size: 30px;
+    text-align: center;
+}
+
+.subposition h3{
+    font-family: "Roboto Flex", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.subposition h4{
+    font-family: "Roboto Flex", sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    text-align: center;
+}
+
+
+
+@media screen  and (max-width:600px) {
+    .subposition img {
+        width: 200px;
+        
+    }
+}

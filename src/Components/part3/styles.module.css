@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
+.contain {
+    width: 100%;
+    position: relative;
+    min-height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+
+.two_image {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+
+.two_image img {
+    width: 100px;
+    height: 100px;
+}
+
+.one_image {
+    display: flex;
+    justify-content: start;
+}
+
+.one_image img {
+    transform: rotate(280deg);
+    width: 100px;
+}
+
+.subposition {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    top: 0;
+    flex-direction: column;
+    padding: 0 1rem;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 4rem;
+
+}
+
+.first_div {
+    display: flex;
+    justify-content: space-around;
+
+    img:first-child {
+        width: 60%;
+        height: auto;
+        max-height: 350px;
+        clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+
+    }
+
+    img:last-child{
+        width: 30%;
+        height: 180px;
+        max-height: 350px;
+        border-radius: 10px;
+
+    }
+}
+
+.second_div {
+    display: flex;
+    justify-content: space-around;
+
+    img:first-child {
+        width: 56%;
+        height: auto;
+        max-height: 350px;
+        object-fit: cover;
+        clip-path: circle(50% at 50% 50%);
+
+    }
+
+    img:last-child{
+        width: 38%;
+        height: 180px;
+        object-fit: cover;
+        max-height: 350px;
+        border-radius: 10px;
+    }
+}
+
+.subposition h2 {
+    font-family: "Great Vibes", cursive;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+@media screen and (max-width:600px){
+    .first_div {
+ 
+    
+        img:first-child {
+            max-height: 300px;
+        }
+    
+        img:last-child{
+            max-height: 300px;
+    
+        }
+    }
+    
+    .second_div {
+    
+        img:first-child {
+            max-height: 300px;
+        }
+    
+        img:last-child{
+
+            max-height: 300px;
+    
+        }
+    }
+}

@@ -17,7 +17,7 @@ const Part2 = () => {
             </div>
             <div className={styles.subposition}>
                 <h3>NOSOTROS</h3>
-                <h2>Estefany & Brandon</h2>
+                <h2>Estefany & Brandom</h2>
                 <h4>Con la bendicion de dios y nuestros padres.</h4>
                 <h3>
                     Rosa Isela Arroyo Terrazas
